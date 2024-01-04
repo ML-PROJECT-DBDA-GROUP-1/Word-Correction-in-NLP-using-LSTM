@@ -35,13 +35,13 @@ Dataset Creation: The project generates a dataset consisting of input-output pai
 # Model Architecture: 
 The heart of the project lies in the LSTM-based sequence-to-sequence model. The encoder-decoder architecture is designed to capture and correct errors in the input words.
 
-# Encoder:
+### Encoder:
 LSTM layer with 256 units.
 
-# Decoder:
+### Decoder:
 LSTM layer with 256 units, followed by a Dense layer with softmax activation.
 
-## Usage
+# Usage
 Data Loading and Preprocessing:
 
 The project reads a CSV file (unigram_freq.csv) containing word frequency data.
@@ -64,7 +64,10 @@ Model Evaluation:
 The model can be evaluated on test data to observe its performance in correcting words.
 
 
+# Training
+Batch Size: 128
+Epochs: 1000
 
-
-
+# Results
+The model has undergone training and testing on a subset of the dataset, showcasing promising results in correcting artificially generated errors. The Results section provides a glimpse into the model's performance.
 
