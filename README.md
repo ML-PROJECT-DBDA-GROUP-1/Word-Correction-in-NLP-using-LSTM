@@ -32,4 +32,39 @@ Gibberish Generation: A function is implemented to generate gibberish by introdu
 
 Dataset Creation: The project generates a dataset consisting of input-output pairs, where the input is the gibberish word, and the output is the corrected word.
 
-Model Architecture: The heart of the project lies in the LSTM-based sequence-to-sequence model. The encoder-decoder architecture is designed to capture and correct errors in the input words.
+# Model Architecture: 
+The heart of the project lies in the LSTM-based sequence-to-sequence model. The encoder-decoder architecture is designed to capture and correct errors in the input words.
+
+# Encoder:
+LSTM layer with 256 units.
+
+# Decoder:
+LSTM layer with 256 units, followed by a Dense layer with softmax activation.
+
+## Usage
+Data Loading and Preprocessing:
+
+The project reads a CSV file (unigram_freq.csv) containing word frequency data.
+Preprocessing involves converting words to lowercase, removing non-alphanumeric characters, and creating a set of unique words.
+Character Indexing:
+
+Characters are indexed to create a mapping between characters and integers for the model input.
+Gibberish Generation:
+
+A function (gen_gibberish) is implemented to generate gibberish by introducing noise to the input words.
+Dataset Creation:
+
+The dataset is created by generating input-output pairs, where the input is the gibberish and the output is the corrected word.
+Model Training:
+
+The model architecture consists of an encoder and a decoder with LSTM layers.
+Training involves minimizing categorical crossentropy loss.
+Model Evaluation:
+
+The model can be evaluated on test data to observe its performance in correcting words.
+
+
+
+
+
+
