@@ -3,10 +3,15 @@ This project implements a sequence-to-sequence model using Long Short-Term Memor
 
 # Prerequisites
 -Python
+
 -NumPy
+
 -Pandas
+
 -Matplotlib
+
 -TensorFlow
+
 -Keras
 
 # Data Preprocessing
