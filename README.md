@@ -66,8 +66,13 @@ The model can be evaluated on test data to observe its performance in correcting
 
 # Training
 Batch Size: 128
+
 Epochs: 1000
 
 # Results
 The model has undergone training and testing on a subset of the dataset, showcasing promising results in correcting artificially generated errors. The Results section provides a glimpse into the model's performance.
+
+# Acknowledgments
+The project acknowledges the use of the Keras library for building and training the sequence-to-sequence model.
+
 
